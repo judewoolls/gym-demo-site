@@ -87,7 +87,9 @@ footer {
 
     main{
         min-height: 800px;
-        background: url(../images/crossfit-class.png) no-repeat center center/cover;
+        /* background: url(../images/large-gym.png) no-repeat center/cover;
+        background-position: 0% 60%; */
+        background-color: blanchedalmond;
     }
 
     main h2 {
@@ -111,5 +113,13 @@ footer {
     /* .coaches .btn {
         max-width: 60%;
     } */
+    .hero {
+        background: url(../images/large-gym.png) no-repeat center/cover;
+        background-position: 0% 85%;
+        color: black !important;
+    }
+    .hero:before {
+        opacity: 0.20;
+    }
 
 }
