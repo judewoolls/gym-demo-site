@@ -100,7 +100,7 @@ footer {
     }
 
     main h2, main p, main h4 {
-        color: blanchedalmond !important;
+        color: white !important;
     }
 
     #meet-coaches {
@@ -135,4 +135,21 @@ footer {
         z-index: 1;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    
+    nav ul li a{
+        font-size: 1.25rem !important;
+    }
+    nav ul li a:hover{
+        color: blanchedalmond !important;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    .navbar-brand:hover {
+        color: blanchedalmond;
+    }
 }
