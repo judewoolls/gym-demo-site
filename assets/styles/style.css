@@ -20,6 +20,14 @@ nav {
     font-family: "Oswald", sans-serif;
 }
 
+/* image section */
+#background-image {
+    background: url(../images/coach-helping-client.png) no-repeat center center/cover;
+    width: 100%;
+    min-height: 360px;
+    margin-top: -2px;
+}
+
 /* why choose us? section */
 main {
     background-color: blanchedalmond;
@@ -37,4 +45,34 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     /* margin top is set using bootstrap class */
     font-family: "Oswald", sans-serif;
+}
+
+
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+    #background-image {
+       background: url(../images/coach-helping-client.png) no-repeat cover;
+       min-width: 100%;
+       min-height: 500px;
+       background-position: 0% 10%;
+       padding: 10% !important;
+    }
+    * {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #background-image {
+        background: url(../images/crossfit-class.png) no-repeat cover;
+        background-position: 0% 15%;
+        min-height: 600px;
+    }
+
+    .card {
+        min-height: 175px;
+    }
+    
 }
