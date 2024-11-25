@@ -115,11 +115,24 @@ footer {
     } */
     .hero {
         background: url(../images/large-gym.png) no-repeat center/cover;
-        background-position: 0% 85%;
-        color: black !important;
+        position: relative;
+        background-position: 0% 75%;
+        color: white !important;
+
     }
     .hero:before {
-        opacity: 0.20;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+    }
+
+    .hero * {
+        position: relative;
+        z-index: 1;
     }
 
 }
