@@ -82,7 +82,8 @@ footer {
     }
 
     .card {
-        min-height: 175px;
+        min-height: 180px;
+        border-radius: 8px;
     }
 
     main{
